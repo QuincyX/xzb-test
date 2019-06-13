@@ -45,11 +45,11 @@
         .topicList
           .item
             .title 了解信用额度
-            .desc 工之宝专属信用额度
+            .desc 宝专属信用额度
             .btn 前去了解
           .item
             .title 了解信用额度
-            .desc 工之宝专属信用额度
+            .desc 宝专属信用额度
             .btn 前去了解
     .rightContent
       .fian.fian1.card
@@ -84,7 +84,7 @@
             .value 未完成
       el-card
         .cardHeader(slot="header")
-          span 工之宝头条
+          span 宝头条
           .btn 查看全部
         .newsList
           .item(v-for="(i,n) in newsList" :key="n")
